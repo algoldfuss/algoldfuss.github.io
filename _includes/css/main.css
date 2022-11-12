@@ -145,7 +145,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 25px 0 50px;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -169,16 +169,20 @@ header .intro-text .skills {
     }
 }
 
+.navbar-toggle {
+    background-color: #000;
+}
+
 .navbar {
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: Oswald,arial,sans-serif;
     font-weight: 400;
+    background-color: #fff;
 }
 
-.navbar a:focus {
-    outline: 0;
-    color: #575757;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
 }
 
 .navbar .navbar-nav {
@@ -193,11 +197,6 @@ header .intro-text .skills {
     color:#000;
 }
 
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-    color: #000;
-}
-
 .navbar-default .navbar-nav > li > a {
     color: #000;
     font-size: 1em;
@@ -208,7 +207,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 section h2 {
@@ -343,6 +342,16 @@ section.success {
     border: solid 2px #fff;
     color: #fff;
     background: #fff;
+}
+
+.btn-modal a {
+    font-size: 18px;
+    outline: 0;
+    color: #fff;
+}
+
+button {
+    background-color: #000;
 }
 
 .floating-label-form-group {
@@ -522,7 +531,8 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    color: #000;
+    background-color: #fff !important;
 }
 
 /* Fix modal mouse wheel issues */
