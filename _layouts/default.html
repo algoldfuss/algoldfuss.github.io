@@ -4,7 +4,9 @@
 
 <body id="page-top" class="index">
   {% include nav.html %}
+  {% comment %}
   {% include header.html %}
+  {% endcomment %}
   {% include portfolio_grid.html %}
   {% include about.html %}
 
@@ -15,8 +17,9 @@
   {% else %}
   {% include contact.html %}
   {% endif %}
-
+  {% comment %}
   {% include footer.html %}
+  {% endcomment %}
   {% include modals.html %}
   {% include js.html %}
 </body>

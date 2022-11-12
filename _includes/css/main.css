@@ -10,29 +10,47 @@ body {
 
 p {
     font-size: 20px;
+    line-height: 36px;
+    color: #575757; 
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
+a {
+    outline: 0;
+    color: #575757;
+}
+a:hover {
+    outline: 0;
+    color: #575757 !important;
+}
+a:focus {
+    outline: 0;
+    color: #575757;
+}
+a:active {
+    outline: 0;
+    color: #575757;
+}
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #575757;
 }
 
 h1,
 h2,
-h3,
+h3 {
+    font-weight: 300;
+}
 h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: Oswald,arial,sans-serif;
     font-weight: 700;
 }
 
@@ -82,7 +100,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #000;
     background: #{{ site.color.primary }};
 }
 
@@ -99,7 +117,8 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: Oswald,arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -133,10 +152,12 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        color:#000;
+        font-weight: 600;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -150,23 +171,38 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: Oswald,arial,sans-serif;
+    font-weight: 400;
 }
 
 .navbar a:focus {
     outline: 0;
+    color: #575757;
 }
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
 
-.navbar .navbar-nav li a:focus {
-    outline: 0;
+.navbar-brand:a {
+    color: #575757 !important;
 }
 
-.navbar-default,
+.navbar-default .navbar-brand {
+    color:#000;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-size: 1em;
+}
+
 .navbar-inverse {
     border: 0;
 }
@@ -176,12 +212,13 @@ section {
 }
 
 section h2 {
-    margin: 0;
+    margin-bottom: 40px;
     font-size: 3em;
+    font-weight: 300;
 }
 
 section.success {
-    color: #fff;
+    color: #000;
     background: #{{ site.color.primary }};
 }
 
@@ -230,7 +267,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #000;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -264,6 +301,17 @@ section.success {
       flex: 1 0 49%;
       max-width: 49%;
     }
+    /*.portfolio-flex-grid .portfolio-flex-row::after {
+        content: "";
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        flex: auto;
+        justify-content: space-between;
+      }*/
+      .item-empty {
+        visibility: hidden;
+      }
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
@@ -293,7 +341,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #fff;
     background: #fff;
 }
 
@@ -354,7 +402,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #000;
 }
 
 footer h3 {
@@ -416,9 +464,10 @@ footer .footer-below {
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
+    font-size: 16px !important;
     border: 0;
     border-radius: 0;
-    text-align: center;
+    text-align: left;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -456,7 +505,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #000;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -466,7 +515,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #000;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
