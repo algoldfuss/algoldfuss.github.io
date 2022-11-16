@@ -21,23 +21,28 @@ p.small {
 
 a {
     outline: 0;
-    color: #575757;
+    color: #000 !important;
+    text-decoration: none;
 }
 a:hover {
     outline: 0;
     color: #575757 !important;
+    text-decoration: none;
 }
 a:focus {
     outline: 0;
     color: #575757;
+    text-decoration: none;
 }
 a:active {
     outline: 0;
     color: #575757;
+    text-decoration: none;
 }
 a.active {
     outline: 0;
     color: #575757;
+    text-decoration: none;
 }
 
 h1,
@@ -347,7 +352,14 @@ section.success {
 .btn-modal a {
     font-size: 18px;
     outline: 0;
-    color: #fff;
+    color: #fff !important;
+}
+
+.btn-modal:hover {
+    font-size: 18px;
+    outline: 0;
+    color: #fff !important;
+    background-color: #575757;
 }
 
 button {
