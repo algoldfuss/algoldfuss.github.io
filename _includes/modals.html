@@ -21,9 +21,12 @@
               </div>
               <div class="col-lg-6 align-self-center"></div>
                 <h3>{{ post.title }}</h3>
+                <p>{{ post.wordcount }} words</p>
                 <p>{{ post.description }}</p>
                 {% if post.link %}
             <button class="btn btn-modal"><a href="{{ post.link }}" target="_blank">Read Here</a></button>
+                {% else if post.buy %}
+                <button class="btn btn-modal"><a href="{{ post.buy }}" target="_blank">Buy Here</a></button>
             {% endif %}
               </div>
           
