@@ -6,6 +6,7 @@ description: A.L. Goldfuss
 keywords: 
 skills: 
 meta_author:
+#baseurl: 
 baseurl: /algoldfuss.github.io
 
 # Google webmaster tools
@@ -40,8 +41,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/alicegoldfuss
+  #- title: twitter
+  #  url: http://twitter.com/alicegoldfuss
   #- title: facebook
   #  url:
   #- title: stack-overflow
