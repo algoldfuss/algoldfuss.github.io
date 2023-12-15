@@ -10,6 +10,7 @@ category: Fiction
 wordcount: 5528
 link: https://www.fantasy-magazine.com/fm/fiction/the-woman-with-no-face/
 buy:
+listen: https://open.spotify.com/episode/2kzOKqKm8ZM6NG2UXruz6K?si=f7f111a60c12433e
 description: |- 
 
     <i>Ankuin knew she was in a sim by the mineral taste in her mouth. The other tells were more subtle...the fractal pattern of moss on the cave wall, the cyclical rhythm of the rain on wet fronds, and the lyrical birdsong piercing through the dense forest. Most people wouldn’t notice such details, because most people didn’t have a reason to doubt their senses. But Ankuin’s senses were never fully her own.</i></br></br>  

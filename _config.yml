@@ -6,7 +6,9 @@ description: A.L. Goldfuss
 keywords: 
 skills: 
 meta_author:
+# use this one for local dev
 #baseurl: 
+# use this one for prod
 baseurl: /algoldfuss.github.io
 
 # Google webmaster tools

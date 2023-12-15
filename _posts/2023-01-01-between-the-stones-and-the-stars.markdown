@@ -10,6 +10,7 @@ category: Fiction
 wordcount: 1291
 link: https://www.lightspeedmagazine.com/fiction/between-the-stones-and-the-stars/
 buy: 
+listen:
 description: |- 
 
     <i>His rival appraises him with a measured stare, but he is used to such scrutiny, insults half-whispered through gritted teeth. He stands his ground, here among the windswept ruins of broken pillars and half-buried busts, before the vine-choked temple in the thin mountain air. He stands his ground, and the woman studying him smirks.</i></br></br>  
