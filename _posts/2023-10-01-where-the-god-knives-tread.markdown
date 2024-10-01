@@ -16,6 +16,7 @@ description: |-
 
     <i>When the ship’s scanners first chirped in the dead of night, Sien figured it was another misfire---light reflecting off asteroid ice, solar radiation, space dust. But xe still slid from xir berth into the chilly, cramped cockpit, eyes bleary as xe ran the numbers again. And this was no misfire.</i></br></br>  
 
+    Notable story, Best American Science Fiction and Fantasy 2024</br>
     BSFA Awards Longlist</br>
     Locus Recommended Reading List</br>
     Nebula Recommended Reading List</br>
