@@ -4,6 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ * {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;
+    /*font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;*/
+}
+
 body {
     overflow-x: hidden;
 }
@@ -12,7 +21,10 @@ p {
     font-size: 20px;
     line-height: 36px;
     color: #575757; 
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;*/
 }
 
 p.small {
@@ -48,6 +60,9 @@ a.active {
 h1,
 h2,
 h3 {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 300;
+    font-style: normal;
     font-weight: 300;
 }
 h4,
@@ -55,8 +70,11 @@ h5,
 h6 {
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: Oswald,arial,sans-serif;
-    font-weight: 700;
+    /*font-family: Oswald,arial,sans-serif;
+    font-weight: 700;*/
+    /*font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;*/
 }
 
 hr.star-light,
@@ -77,7 +95,11 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    /*font-family: FontAwesome;
+    font-size: 2em;*/
+    /*font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;*/
     font-size: 2em;
 }
 
@@ -123,9 +145,13 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: Oswald,arial,sans-serif;
+    /*font-family: Oswald,arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 700;*/
+    /*font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;*/
+    font-size: 2em;
 }
 
 header .intro-text .skills {
@@ -157,7 +183,8 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 3em;
+        font-size: 4em;
+        letter-spacing: 7px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -181,8 +208,11 @@ header .intro-text .skills {
 .navbar {
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: Oswald,arial,sans-serif;
+    /*font-family: Oswald,arial,sans-serif;
+    font-weight: 400;*/
+    /*font-family: "Sorts Mill Goudy", serif;
     font-weight: 400;
+    font-style: normal;*/
     background-color: #fff;
 }
 
@@ -218,7 +248,9 @@ section {
 section h2 {
     margin-bottom: 40px;
     font-size: 3em;
+    font-family: "Sorts Mill Goudy", serif;
     font-weight: 300;
+    font-style: normal;
 }
 
 section.success {
@@ -498,6 +530,9 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .portfolio-modal .modal-content img {
@@ -553,4 +588,46 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.libre-caslon-text-regular {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-caslon-text-bold {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.libre-caslon-text-regular-italic {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.radley-regular {
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.radley-regular-italic {
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sorts-mill-goudy-regular {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.sorts-mill-goudy-regular-italic {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: italic;
 }
