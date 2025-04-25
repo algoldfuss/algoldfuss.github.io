@@ -8,9 +8,6 @@
     font-family: "Sorts Mill Goudy", serif;
     font-weight: 400;
     font-style: normal;
-    /*font-family: "Libre Caslon Text", serif;
-    font-weight: 400;
-    font-style: normal;*/
 }
 
 body {
@@ -22,9 +19,6 @@ p {
     line-height: 36px;
     color: #575757; 
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    /*font-family: "Sorts Mill Goudy", serif;
-    font-weight: 400;
-    font-style: normal;*/
 }
 
 p.small {
@@ -72,9 +66,6 @@ h6 {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     /*font-family: Oswald,arial,sans-serif;
     font-weight: 700;*/
-    /*font-family: "Sorts Mill Goudy", serif;
-    font-weight: 400;
-    font-style: normal;*/
 }
 
 hr.star-light,
@@ -95,11 +86,7 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    /*font-family: FontAwesome;
-    font-size: 2em;*/
-    /*font-family: "Sorts Mill Goudy", serif;
-    font-weight: 400;
-    font-style: normal;*/
+    /*font-family: FontAwesome;*/
     font-size: 2em;
 }
 
@@ -148,9 +135,6 @@ header .intro-text .name {
     /*font-family: Oswald,arial,sans-serif;
     font-size: 2em;
     font-weight: 700;*/
-    /*font-family: "Sorts Mill Goudy", serif;
-    font-weight: 400;
-    font-style: normal;*/
     font-size: 2em;
 }
 
@@ -210,9 +194,6 @@ header .intro-text .skills {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     /*font-family: Oswald,arial,sans-serif;
     font-weight: 400;*/
-    /*font-family: "Sorts Mill Goudy", serif;
-    font-weight: 400;
-    font-style: normal;*/
     background-color: #fff;
 }
 
@@ -581,6 +562,14 @@ footer .footer-below {
 .navbar-nav>.active>a {
     color: #000;
     background-color: #fff !important;
+}
+
+@media (min-width:320px) {
+    img {
+        width: 100%;
+        display: block;
+        margin: 0 auto 1em;        
+    }
 }
 
 /* Fix modal mouse wheel issues */
