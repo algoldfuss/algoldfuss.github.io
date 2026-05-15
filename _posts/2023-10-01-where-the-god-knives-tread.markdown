@@ -4,6 +4,8 @@ layout: default
 modal-id: 5
 date: 2023-10-01
 img: Godknives_cover.png
+thumbnail: god-knives_thumbnail.png
+img-caption: Art by Sou Alexander
 alt: Promotional cover art by Sou Alexander. An aerial shot of a person in a spacesuit standing over a huge mosaic of a spider-crab creature with a purple gem for an eye.
 project-date: Lightspeed 2023
 client: Lightspeed Magazine

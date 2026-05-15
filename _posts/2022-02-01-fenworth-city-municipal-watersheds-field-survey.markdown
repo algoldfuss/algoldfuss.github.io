@@ -3,6 +3,7 @@ layout: default
 modal-id: 2
 date: 2022-02-01
 img: nightmare_113.jpeg
+thumbnail: fenworth_city_thumbnail.png
 alt: Cover for Nightmare Magazine issue 113. Illustration of a woman in a white dress standing before a giant spider.
 project-date: Nightmare 2022
 client: Nightmare Magazine

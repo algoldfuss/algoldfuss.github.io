@@ -2,7 +2,8 @@
 layout: default
 modal-id: 4
 date: 2023-06-01
-img: Hexagon_13.png
+img: hexagon_13_cover.png
+thumbnail: beasties_forever_thumbnail.png
 alt: Cover for Hexagon Magazine issue 13. Illustration of a human hand holding a skeleton's hand as the sun sets in the backgound.
 project-date: Hexagon 2023
 client: Hexagon Magazine

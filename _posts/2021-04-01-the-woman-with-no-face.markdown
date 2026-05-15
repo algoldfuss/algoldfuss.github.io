@@ -1,8 +1,10 @@
 ---
+title: The Woman With No Face
 layout: default
 modal-id: 1
 date: 2021-04-01
 img: fantasy_mag_66.jpeg
+thumbnail: woman_no_face_thumbnail.png
 alt: Cover for Fantasy Magazine issue 66. Illustration of a person with cat ears pointing at a swirling galaxy to a cat next to them.
 project-date: April 2021
 client: Fantasy Magazine

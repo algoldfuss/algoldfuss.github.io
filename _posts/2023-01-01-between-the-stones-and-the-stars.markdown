@@ -1,8 +1,10 @@
 ---
+title: Between the Stones and the Stars
 layout: default
 modal-id: 3
 date: 2023-01-01
 img: lightspeed_152.jpeg
+thumbnail: between_the_stones_thumbnail.png
 alt: Cover for Lightspeed Magazine issue 152. Illustration of a small child wielding a sword while confronting a tower skeletal demon.
 project-date: Lightspeed 2023
 client: Lightspeed Magazine
