@@ -23,6 +23,7 @@
               <div class="col-lg-6 align-self-center">
                 <h3>{{ post.title }}</h3>
                 <p>{{ post.client }}</p>
+                <p>{{ post.date | date: "%B %-d, %Y" }}</p>
                 <p>{{ post.wordcount }} words</p>
                 <p>{{ post.description }}</p>
                 {% if post.link %}

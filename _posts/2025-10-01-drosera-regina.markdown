@@ -20,6 +20,7 @@ description: |-
 
     Brave New Weird Award winner</br>
     Gizmodo October selection</br>
+    ECO25 shortlist</br>
     Locus Recommended Reading List</br>
     Nebula Recommended Reading List</br>
 
