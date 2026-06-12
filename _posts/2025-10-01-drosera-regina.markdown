@@ -18,6 +18,7 @@ description: |-
 
     <i>The men knew before she did. Before this boy, before sophomore year, before even her twelfth birthday, they had jostled her on the sidewalk and hooted from cars, searching for something just past her skin.</i></br></br>  
 
+    The Best American Science Fiction and Fantasy 2026</br>
     Brave New Weird Award winner</br>
     Gizmodo October selection</br>
     ECO25 shortlist</br>
