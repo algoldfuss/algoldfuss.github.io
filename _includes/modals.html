@@ -28,7 +28,8 @@
                 <p>{{ post.description }}</p>
                 {% if post.link %}
             <button class="btn btn-modal"><a href="{{ post.link }}" target="_blank">Read Here</a></button>
-                {% else if post.buy %}
+                {% endif %}
+                {% if post.buy %}
                 <button class="btn btn-modal"><a href="{{ post.buy }}" target="_blank">Buy Here</a></button>
             {% endif %}
             {% if post.listen %}
